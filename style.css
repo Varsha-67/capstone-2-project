@@ -1,0 +1,129 @@
+body{
+   color: #25e4c2;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.topcloud{
+    position:absolute;
+    right:300px;
+    top:40px
+}
+.topcontainer{
+    background-color: #d6f7f1;
+    position: relative;
+    padding-top: 100px;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+h1{
+    font-family: "Sacramento", cursive;
+    color: #4cd6bd;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    text-align: center;
+ 
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: #4cd6bd;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.middlecloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.profile-img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 100px auto 0 auto;
+}
+.intro{
+    text-align: center;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+   line-height:2;
+   width: 30%;
+   margin: auto;
+   color: #40514e;
+    font-size: large;
+
+}
+hr{
+    border: dotted #d6f7f1 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.top{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    row-gap: 2rem;
+}
+
+.ptext{
+    text-align: left;
+}
+
+h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.message{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+.btn{
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin: 100px 0 0 0;
+}
+a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+   cursor: pointer;
+   font-weight: 500;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+
+
+
